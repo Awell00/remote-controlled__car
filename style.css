@@ -1,0 +1,84 @@
+
+
+body {
+    background-color:#ECECEC;
+    color: #18182F;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+ 
+}
+
+.nav__title {
+    font-family: 'Koulen', cursive;
+
+    font-size: 32px;
+    
+}
+
+.car__title {
+    font-family: 'Oleo Script Swash Caps', cursive;;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nav__list-item {
+    font-family: 'Koulen', cursive;
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+
+.nav__button {
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    margin-right: 100px;
+    background-color: transparent;
+}
+
+.car {
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: -110px;
+}
+
+.car__image {
+    
+    max-width: 40%;
+}
+
+.car__info {
+    
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.item__title {
+    font-family: 'Koulen', cursive;
+    font-size: 32px;
+}
+
+.item__subtitle {
+    font-family: 'poppins', cursive;
+    font-size: 20px;
+}
+
+.car__price {
+    font-family: 'Koulen', cursive;
+    font-size: 32px;
+}
