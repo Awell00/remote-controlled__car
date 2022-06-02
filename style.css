@@ -1,0 +1,436 @@
+
+
+body {
+    background-color:#ECECEC;
+    color: #18182F;
+}
+
+.nav {
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 80px;
+}
+
+.border {
+    margin: 0 auto;
+    background: #18182F;
+    width: 80%;
+    height: 2px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin-right: 130px;
+ 
+}
+
+.nav__title {
+    font-family: 'Koulen', cursive;
+
+    font-size: 32px;
+    
+}
+
+.nav__title:hover {
+    cursor: pointer;
+}
+
+.car__title {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.nav__list-item {
+    font-family: 'Koulen', cursive;
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+
+.nav__button {
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    border: 2px solid #18182F;
+    /* margin-right: 130px; */
+    background-color: transparent;
+}
+
+
+.nav__button {
+  
+
+    border-radius: 3px;
+    margin-top: 3px;
+    padding: 0px 8px;
+    background-color: transparent;
+    
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+    transition: all .35s ease; 
+    
+    font-weight: 400;
+    border: 2px solid #18182F;
+    line-height: 36px;
+    color: #18182F;
+
+    
+    
+}
+
+.nav__button:hover {
+    
+    background-color: #18182F;
+    color: #F2EAE3;
+    box-shadow: #18182f50 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.car {
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 310px;
+}
+
+.car__image {
+    
+    max-width: 25%;
+    /* padding-right: 80px; */
+}
+
+.car__info {
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: -180px;
+    gap: 30px;
+
+    
+}
+
+.item__title {
+    margin-top: -15px;
+    font-family: 'Koulen', cursive;
+    font-size: 32px;
+}
+
+.item__subtitle {
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-family: 'Outfit', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: #D67747;
+    
+}
+
+.test {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #18182F, transparent);
+}
+
+.car__price-item {
+    font-family: 'Koulen', cursive;
+    margin-left: -180px;
+    font-size: 32px;
+    margin-bottom: 250px;
+    
+    
+}
+
+.price {
+    
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #18182F, transparent) 1;
+}
+
+.nav__list-item {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.nav__list-item:last-child {
+    margin-right: 0;
+}
+  
+.nav__list-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.nav__list-item:hover:after {
+    width: 100%;
+    background: #18182F;
+}
+
+.nav__color {
+    color: #415163 ;
+    transition: color .5s;
+}
+
+
+
+
+.nav__color:hover {
+    
+    color: #18182F;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    background: #D67747;
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    left: 0px;
+    top: 733px;
+    
+}
+
+.card__bottom {
+    margin-top: -100px;
+    margin-left: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.card__review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 20px 20px;
+    gap: 20px;
+    margin-right: 70px;
+    /* position: absolute; */
+    width: 506px;
+    height: 231px;
+    margin-top: -120px;
+    /* left: 1112px; */
+    
+    z-index: 2;
+    background: #ECECEC;
+    border: 2px solid #D67747;
+    border-radius: 10px;
+    transition: box-shadow .35s;
+    
+}
+
+.card__review:hover {
+   
+    cursor: pointer;
+    box-shadow: #d6774750 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card__review-part--1 {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card__review-text {
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Outfit', cursive;
+    font-weight: 500;
+}
+
+.card__review-image {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid;
+    margin-left: 15px;
+    transition: box-shadow .35s;
+}
+
+.card__review-image:hover {
+    cursor: pointer;
+    box-shadow: #18182f50 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card__review-part--2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card__review-username--name {
+    color: #18182F;
+    font-family: 'Koulen', cursive;
+    font-size: 25px;
+}
+
+.card__review-username--subtitle {
+    color: #415163;
+    font-family: 'Outfit', cursive;
+    margin-top: -10px;
+}
+
+.card__review-username {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+
+}
+
+.card__info--1 {
+    font-family: 'Koulen', cursive;
+    font-size: 32px;
+}
+
+.card__info--2 {
+    margin-top: -10px;
+    font-family: 'Outfit', cursive;
+    font-size: 20px;
+    color: #ECECEC;
+}
+
+.details__title {
+
+    font-family: 'Outfit', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    border-bottom: 2px solid #18182F;
+}
+
+.details__title a {
+    color: #18182F;
+}
+
+.details__title:hover {
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.details__image:hover {
+    cursor: pointer;
+    animation: bounce2 1s ease infinite;
+  }
+  @keyframes bounce2 {
+      0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+      40% {transform: translateX(30px);}
+      60% {transform: translateX(15px);}
+  }
+
+.card__review-heart:hover {
+    cursor: pointer;
+    
+    /* animation: pulse .5s infinite ease-in-out alternate; */
+  }
+  @keyframes pulse {
+    from { transform: scale(0.8); }
+    to { transform: scale(1.2); }
+  }
+
+.test2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+    width: 433px;
+}
+
+.image__select {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.image__select:hover {
+    cursor: pointer;
+    animation: gelatine 1s infinite !important;
+  }
+  @keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  }
+
+  .shake {
+    animation: shake1 4s ease infinite;
+  }
+  @keyframes shake1 {
+      0%, 100% {transform: translateX(0);}
+      10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+      20%, 40%, 60%, 80% {transform: translateX(10px);}
+  }
+
+  @keyframes shake2 {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(10px);}
+    20%, 40%, 60%, 80% {transform: translateX(-10px);}
+}
+  
+
+.bounce {
+    animation: bounce 2s ease infinite;
+  }
+  @keyframes bounce {
+      70% { transform:translateY(0%); }
+      80% { transform:translateY(-15%); }
+      90% { transform:translateY(0%); }
+      95% { transform:translateY(-7%); }
+      97% { transform:translateY(0%); }
+      99% { transform:translateY(-3%); }
+      100% { transform:translateY(0); }
+  }
+  
+
+  .hithere {
+  animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+test3 {
+    margin-left: -100px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
