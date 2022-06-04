@@ -1,26 +1,26 @@
 {
     "members": [
       {
-        "name": "Auxane Salmero",
-        "profession": "Developer",
-        "review": "“Earum, cum laborum sit aliquid doloremque distinctio, velit nisi quam vel a sapiente explicabo? Officiis autem voluptatem odio maiores nihil officia magni nisi nulla optio.”",
-        "profil": "./image/179288.jpg",
-        "like": "./image/Heart2.svg"
+        "name": "Mi dictum",
+        "subtitle": "Developer",
+        "text": "“Earum, cum laborum sit aliquid doloremque distinctio, velit nisi quam vel a sapiente explicabo? Officiis autem voluptatem odio maiores nihil officia magni nisi nulla optio.”",
+        "image": "./image/179288.jpg",
+        "heart": "./image/Heart2.svg"
         
       },
       {
-        "name": "Mael Ouali",
-        "profession": "Community Manager",
-        "review": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dictum tincidunt dictum venenatis eu velit rhoncus diam. Purus diam faucibus sed dictum. Quam nunc enim tristique turpis.”",
-        "profil": "image/IMG_E1206.JPG",
-        "like": "./image/Heart2.svg"
+        "name": "Lorem ipsum",
+        "subtitle": "Community Manager",
+        "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dictum tincidunt dictum venenatis eu velit rhoncus diam. Purus diam faucibus sed dictum. Quam nunc enim tristique turpis.”",
+        "image": "./image/9cacdc207e8997bf90a3daf9c8aaca80.jpg",
+        "heart": "./image/Heart2.svg"
       },
       {
-        "name": "Ewan Oger",
-        "profession": "Developer",
-        "review": "“Voluptatem blanditiis repellat unde laudantium ad dolor inventore nostrum nulla molestiae excepturi architecto ratione harum, asperiores at recusandae, magnam sed quo eligendi.”",
-        "profil": "./image/RLBAgHDt_400x400.jpg",
-        "like": "./image/Heart.svg"
+        "name": "Quam enim",
+        "subtitle": "Developer",
+        "text": "“Voluptatem blanditiis repellat unde laudantium ad dolor inventore nostrum nulla molestiae excepturi architecto ratione harum, asperiores at recusandae, magnam sed quo eligendi.”",
+        "image": "./image/RLBAgHDt_400x400.jpg",
+        "heart": "./image/Heart.svg"
       }
     ]
   }
