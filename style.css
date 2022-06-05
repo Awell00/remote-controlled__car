@@ -393,6 +393,9 @@ a {
         gap: 10px;
     }
     
+}
+
+@media screen and (max-width: 1182px) {
     .card__info {
         gap: 70px;
     }
