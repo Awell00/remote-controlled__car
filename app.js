@@ -101,27 +101,27 @@ async function loadNames(i) {
     const change = () => {
         elements[0].fadeOut(function(){
             card__review__text.innerText = names.members[i].text
-            elem0.fadeIn();
+            elements[0].fadeIn();
         })
        
         elements[1].fadeOut(function(){
             card__review__image.src = names.members[i].image
-            elem1.fadeIn();
+            elements[1].fadeIn();
         })
 
         elements[2].fadeOut(function(){
             card__review__name.innerText = names.members[i].name
-            elem2.fadeIn();
+            elements[2].fadeIn();
         })
 
         elements[3].fadeOut(function(){
             card__review__subtitle.innerText = names.members[i].subtitle
-            elem3.fadeIn();
+            elements[3].fadeIn();
         })
 
         elements[4].fadeOut(function(){
             card__review__heart.src = names.members[i].heart
-            elem4.fadeIn();
+            elements[4].fadeIn();
         })
     }
     change()
